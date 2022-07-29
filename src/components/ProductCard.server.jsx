@@ -15,11 +15,14 @@ export default function ProductCard({ product }) {
               Sale
             </label>
           )}
-          <Image
+          <div>
+            <h1>hello world</h1>
+          </div>
+          {/* <Image
             className="aspect-[4/5]"
             data={product.variants.nodes[0].image}
             alt="Alt Tag"
-          />
+          /> */}
         </div>
         <div className="grid gap-1">
           <h3 className="max-w-prose text-copy w-full overflow-hidden whitespace-nowrap text-ellipsis ">
